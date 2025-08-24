@@ -1,14 +1,15 @@
 
 # Comunicaciones de Datos Laboratorio N°1
 
-**Integrantes**
-_Federico Cechich_
+**Integrantes:**
 
-_Facundo Guerrero_
+ _Federico Cechich_
 
-_Ignacio J. Vigezzi_
+ _Facundo Guerrero_
 
-**Nombre del grupo**:_Comunicadores-Seriales_
+ _Ignacio J. Vigezzi_
+
+**Nombre del grupo**: _Comunicadores-Seriales_
 
 **Universidad Nacional de Cordoba**
 
@@ -158,3 +159,5 @@ Se puede ver que a medida que se la laptop se aleja del router y sale de la ofic
 _Figura 4.7_
 
 Esto se ve reflejado en una disminución de las tasas de envío y recepción bajando de 300 Mbps cerca del router hasta 54 Mbps fuera de la oficina
+
+Por lo tanto si lo que buscamos es tener la mayor velocidad y estabilidad en la conexión debemos priozar minimizar la distancia entre el dispositivo conectado y la fuente.
