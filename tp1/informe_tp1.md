@@ -140,6 +140,7 @@ Conexion de la red
 <img width="1666" height="804" alt="image" src="https://github.com/user-attachments/assets/812db299-3e13-49ac-8146-e97d7c9b11af" />
 
 _Figura 4.4_
+
 Ping y traceroute entre PC y laptop
 
 <img width="701" height="718" alt="image" src="https://github.com/user-attachments/assets/2f52389e-ae9f-4ab8-b940-dbcf613cd74f" />
