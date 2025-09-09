@@ -113,8 +113,10 @@ Cada trama contiene la dirección de origen y destino de los dispositivos, lo qu
 
 **Definición de tramas:**
 
+<img width="815" height="176" alt="image" src="https://github.com/user-attachments/assets/58e244e1-3122-484c-a058-556c30ba8628" />
 
 _Imagen 3.1_
+
 * Preámbulo:  Secuencia de 7 bytes (56 bits) de unos y ceros alternados. Advierte al receptor que la transmisión está a punto de comenzar.
 * Dirección Destino (DD): Dirección MAC del receptor.
 * Dirección Origen (DO): Dirección MAC del emisor.
@@ -131,6 +133,7 @@ Cada dispositivo tiene una dirección MAC única de 48 bits (6 bytes) asignada p
 ### b) 
 Un cable UTP (Unshielded Twisted Pair) es el más utilizado en Ethernet. Su diseño trenzado cancela interferencias externas mediante transmisión diferencial y rechazo de modo común.
 
+<img width="498" height="318" alt="image" src="https://github.com/user-attachments/assets/7c483f3c-7eb0-4107-97de-cc4f6e8e644a" />
 
 _Imagen 3.2_
 
@@ -161,6 +164,7 @@ Aunque hoy muchos equipos ya hacen ese cruce de forma automática con Auto-MDI/M
 
 Los pinout están definidos por standards de cableado como  T568A y T568B.
 
+<img width="843" height="621" alt="image" src="https://github.com/user-attachments/assets/0eda2845-8885-4a2e-bb78-2017c0590919" />
 
 _Imagen 3.3_
 
@@ -168,11 +172,19 @@ _Imagen 3.3_
 
 La puerta de enlace predeterminada de la conexión es: 192.168.0.1.
 
+<img width="750" height="221" alt="image" src="https://github.com/user-attachments/assets/c9d948b3-ad8a-4f19-a60e-51573f3f5b9a" />
+
 _Imagen 3.4_
 
 Se envió un ping a la puerta de enlace y se analizaron los paquetes en Wireshark con filtro `ip.addr == 192.168.0.1`. 
 
+<img width="749" height="176" alt="image" src="https://github.com/user-attachments/assets/b242d9eb-a0e2-46ba-9661-e02d2ea6241a" />
+
+
 _Imagen 3.5_
+
+<img width="908" height="194" alt="image" src="https://github.com/user-attachments/assets/66293e3f-9c7c-431e-9b9b-f377958f02da" />
+
 
 _Imagen 3.6_
 
@@ -190,6 +202,8 @@ En esta imagen podemos observar datos como:
 
 
 Al hacer doble clic sobre el paquete se nos abre la siguiente ventana.
+
+<img width="900" height="346" alt="image" src="https://github.com/user-attachments/assets/312f72cd-d752-4fc2-9b8b-1a4d4069e664" />
 
 _Imagen 3.7_
 
@@ -220,6 +234,7 @@ De esta manera se puede observar tanto la capa de **Enlace (Ethernet)** como la 
 
 ### d)
 
+<img width="812" height="355" alt="image" src="https://github.com/user-attachments/assets/c570e3db-d6f4-47dd-84d4-8b2a6882ba17" />
 
 _Imagen 3.8_
 
@@ -231,6 +246,7 @@ Con la herramienta online analizamos la dirección MAC de la PC de origen y pode
 
 Repetimos los pasos pero en lugar de trackear al gateway lo hacemos hacia una notebook con windows conectada a la misma red.
 
+<img width="900" height="317" alt="image" src="https://github.com/user-attachments/assets/9b6c1b44-bf0e-465e-b7f3-105fdc92d7a8" />
 
 _Imagen 3.9 (ipconfig windows)_
 
@@ -239,13 +255,19 @@ Podemos ver la dirección IP de la notebook.
 
 Hacemos ping hacia esa ip.  
 
+<img width="901" height="350" alt="image" src="https://github.com/user-attachments/assets/0a5c3e56-78d5-463c-b2a2-846d26981785" />
+
 _Imagen 3.10_
 
 Vemos los paquetes capturados en wireshark.
 
+<img width="905" height="175" alt="image" src="https://github.com/user-attachments/assets/9c8dec4c-1345-45c1-a8ac-70f14673d257" />
+
 _Imagen 3.11_
 
 Datos del paquete 1669.
+
+<img width="903" height="285" alt="image" src="https://github.com/user-attachments/assets/cbd8419d-222f-4a22-80f7-d47610b28602" />
 
 _Imagen 3.12_
 
@@ -264,6 +286,8 @@ _Imagen 3.12_
 Nos fijamos ahora la MAC receptora (ya que elegimos un paquete donde la notebook esta recibiendo). 
 
 **38 d5 7a 58 22 ff**
+
+<img width="846" height="387" alt="image" src="https://github.com/user-attachments/assets/11f87fb5-944b-426b-a68c-98f1d8df83ae" />
 
 _Imagen 3.13_
 
