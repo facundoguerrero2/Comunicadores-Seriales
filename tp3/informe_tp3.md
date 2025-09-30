@@ -55,11 +55,17 @@ IEEE 802.11: Aprobado en 1987 para conexiones de red de área local (LAN) y defi
 ### b)
 Al conectarlos a la red FCEFyN 2.4GHz observamos que utiliza la versión del protocolo 802.11b/g que permite solo 2.4 GHz y velocidades bajas (<54 Mbps).
 
+<img width="842" height="377" alt="image" src="https://github.com/user-attachments/assets/a373b27f-88c5-47e7-a328-153ee1b2975b" />
+
 Imagen 1.1
 
 Además, tanto la red FCEFyN 5 GHz como unc-libre utilizan la versión de protocolo 802.11ax o WiFi 6
 
+<img width="912" height="466" alt="image" src="https://github.com/user-attachments/assets/b80859e8-8227-4478-8bbe-827f77132190" />
+
 Imagen 2.2
+
+<img width="918" height="467" alt="image" src="https://github.com/user-attachments/assets/cbf2fd15-3592-43aa-8b99-f5d3ad5b0b81" />
 
 Imagen 2.3
 
@@ -123,6 +129,8 @@ Tanto las conexiones inalámbricas como las de fibra óptica utilizan ondas del 
 
 ### b)
 
+<img width="870" height="457" alt="image" src="https://github.com/user-attachments/assets/124bac05-4a55-4f50-a9d4-1fc252cc6aa0" />
+
 Imagen 3.1
 
 ### c) 
@@ -145,6 +153,8 @@ La conexión a internet en vuelo es posible gracias a estas tecnologías.
 
 - **Aire-Tierra (ATG o DA2GC):** Consiste en utilizar antenas colocadas en tierra, para comunicarse con las aeronaves. Pudiendo tener conexiones de hasta aproximadamente unos 100Mbps con una latencia menor a 50ms. Tiene varias ventajas, la principal es la de soportar un alto ancho de banda,  pero la desventaja es que solo funciona cuando se está sobrevolando tierra y no en océanos.
 
+<img width="617" height="336" alt="image" src="https://github.com/user-attachments/assets/fc900d01-1d17-41c1-99b3-9df1435e37d1" />
+
 Imagen 4.1
 
 - **Satélites Geoestacionarios:** Un satélite geoestacionario es aquel que orbita la tierra a una distancia aproximada de 36000 km de manera que su movimiento se coordina con la rotación de la tierra, quedando siempre en el mismo punto en el cielo, esto permite apuntar hacia él para poder tener una conexión a internet, la ventaja de este método es la disponibilidad en cualquier lugar, aunque sea en el medio del océano. La desventaja es la cantidad de ancho de banda soportado el cual ronda unos  1-5 Mbps (por aeronave) y su latencia elevada >1000ms.
@@ -161,17 +171,19 @@ Empresas como StarLink, Amazon, OneWeb, Telesat están trabajando en estas tecno
 
 Investigando encontramos el siguiente paper científico.
 
+https://arxiv.org/abs/2504.07262
+
 ### **Título:**
 
 Enabling Continuous 5G Connectivity in Aircraft through Low Earth Orbit Satellites
 
 ### **Autores:**
 
-Raúl Parada, Victor Monzon Baeza, , Carlos Horcajo Fernández de Gamboa, Rocío Serrano Camacho, and Carlos Monzo
+Raúl Parada, Victor Monzon Baeza, Carlos Horcajo Fernández de Gamboa, Rocío Serrano Camacho, y Carlos Monzo
 
 Publicado en arXiv (versión v1): 09 de abril de 2025
 
-En este artículo se aborda la solución al internet en vuelo a través de LEO pero utilizando una red 5G dentro del avión, se utilizan simulaciones con MATLAB y SIMULINK para simular el movimiento satelital y RayTracing para estimar el comportamiento dentro del avión.
+En este artículo se aborda la solución al internet en vuelo a través de LEO pero utilizando una red 5G dentro del avión en lugar de una Wifi, esto puede traer ventajas como una menor degradación de la señal y una mejor gestión de la densidad masiva de usuarios. Se utilizan simulaciones con MATLAB y SIMULINK para simular el movimiento satelital y RayTracing para estimar el comportamiento dentro del avión.
 
 Se concluye que es factible y ventajoso aprovechar las constelaciones de satélites LEO para permitir la conectividad 5G continua en las aeronaves. 
 
