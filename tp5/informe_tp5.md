@@ -1,4 +1,33 @@
-# 1)
+# Comunicaciones de Datos Laboratorio N°5
+
+**Integrantes:**
+
+ _Federico Cechich_
+
+ _Facundo Guerrero_
+
+ _Ignacio J. Vigezzi_
+
+**Nombre del grupo**: _Comunicadores-Seriales_
+
+**Universidad Nacional de Cordoba**
+
+**Facultad de Ciencias Exactas, Fisicas y Naturales**
+
+**Asignatura:** Comunicaciones de datos
+
+**Profesores:** Facundo Oliva Cuneo y Santiago Martín Henn
+
+**Fecha:** 21/11/2025
+
+---
+
+**Informacion de contacto**: _Cechich Federico - federico.cechich@mi.unc.edu.ar_
+                             _Guerrero Facundo - facundo.guerrero.pozzi@mi.unc.edu.ar_
+                             _Vigezzi Ignacio - ignacio.vigezzi@mi.unc.edu.ar_
+
+
+# 1) 
 ## MQTT
  MQTT es un protocolo de mensajería estándar basado en TCP/IP para el Internet de las Cosas (IoT). Está diseñado como un sistema de mensajería publish/subscribe extremadamente liviano, es ideal para conectar dispositivos remotos que necesitan poco código y muy poco ancho de banda. Hoy en día se usa en muchas industrias, como la automotriz, las telecomunicaciones, el petróleo y el gas.
 
@@ -33,34 +62,47 @@ El patrón de diseño **PubSub**, es una estrategia de diseño de comunicación 
 
 # 2) 3)
 
+<img width="947" height="428" alt="imagen" src="https://github.com/user-attachments/assets/90ed245e-dfd5-4b4c-bae2-d3680a1a4526" />
 
+_Imagen 1.1_
 
-
-__Imagen 1.1__
+Cliente y Broker MQTT mediante mosquitto en linux, el terminal de la derecha publica mensajes en lan/devices/status y el terminal de la izquierda muestra el cliente suscrito que los recibe.
 
 # 4)
 
+<img width="949" height="430" alt="imagen" src="https://github.com/user-attachments/assets/b0f7b38e-c44f-4be7-b7a9-d5c8122456b5" />
 
 
-__Imagen 1.2__
+_Imagen 1.2_
+
+Simulación de broadcasting con cliente central que publica mensajes en un tópico general lan/broadcast/all, con dos clientes suscritos.
+
 
 # 5)
 
-__Imagen 1.3__
+<img width="948" height="503" alt="imagen" src="https://github.com/user-attachments/assets/8c14ad85-4989-4901-87b1-22a526b6fcc6" />
+
+_Imagen 1.3_
+
+Mediante scripts de python y mosquitto se simula una serie de sensores que generan datos y los publican, con un cliente central que se suscribe y recibe los datos de todos los sensores 
+
+<img width="949" height="503" alt="imagen" src="https://github.com/user-attachments/assets/1c3db1db-fee5-4bfe-8dd3-9e206a350ff9" />
+
+_Imagen 1.4_
+
+<img width="837" height="443" alt="imagen" src="https://github.com/user-attachments/assets/675e433c-c2d3-48d0-bcbf-7671820997ed" />
+
+_Imagen 1.5_
+
+<img width="836" height="446" alt="imagen" src="https://github.com/user-attachments/assets/0a3a3f46-a822-4b86-9ece-9b078b7cba7c" />
 
 
+_Imagen 1.6_
+Se agrega a la simulación una serie de comandos que son publicados por el cliente central o gateway que permiten iniciar o detener la toma de datos de los sensores suscritos al tópico de comandos. Estos publican los datos muestreados que el cliente central registra en archivos de texto
 
-__Imagen 1.4__
+<img width="840" height="417" alt="imagen" src="https://github.com/user-attachments/assets/daf448d9-f9a3-45f8-8db7-02e4587271ba" />
 
-
-__Imagen 1.5__
-
-
-
-__Imagen 1.6__
-
-
-__Imagen 1.7__
+_Imagen 1.7_
 
 # 6)
 
